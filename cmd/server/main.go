@@ -10,7 +10,6 @@ import (
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/render"
 
-	_ "github.com/eunkenlow/golang-api-boilerplate/migrations"
 	"github.com/eunkenlow/golang-api-boilerplate/pkg/server/middlewares"
 	"github.com/eunkenlow/golang-api-boilerplate/pkg/server/routes"
 )

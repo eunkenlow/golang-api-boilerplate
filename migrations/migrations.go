@@ -9,7 +9,8 @@ import (
 	"github.com/go-pg/migrations"
 )
 
-func init() {
+// Run start running migrations
+func Run() {
 	flag.Parse()
 
 	db := postgresql.GetDb()
