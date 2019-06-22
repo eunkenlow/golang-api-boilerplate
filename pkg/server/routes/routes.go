@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-chi/chi"
 
-	"github.com/eunkenlow/golang-api-boilerplate/pkg/api/user"
+	"github.com/eunkenlow/golang-api-boilerplate/pkg/handlers/user"
 )
 
 // MeRouter current user routes

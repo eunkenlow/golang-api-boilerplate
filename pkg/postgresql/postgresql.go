@@ -23,7 +23,7 @@ func init() {
 	})
 }
 
-// GetDb returns postgres db
-func GetDb() *pg.DB {
+// DB returns postgres db
+func DB() *pg.DB {
 	return db
 }
